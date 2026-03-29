@@ -1,0 +1,79 @@
+2026-03-05 19:53:20,109-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-814 已到岗，载货: D000000901
+2026-03-05 19:55:21,455-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-814 停留满 120秒，执行放行
+2026-03-05 19:55:33,800-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-811 已到岗，载货: D000000899
+2026-03-05 19:57:34,831-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-811 停留满 120秒，执行放行
+2026-03-05 19:57:47,860-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-813 已到岗，载货: D000000925
+2026-03-05 19:57:52,941-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 19:59:47,975-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-813 停留满 120秒，执行放行
+2026-03-05 20:00:01,852-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-812 已到岗，载货: D000000867
+2026-03-05 20:00:53,964-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:02:03,008-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-812 停留满 120秒，执行放行
+2026-03-05 20:02:13,744-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-810 已到岗，载货: D000000774
+2026-03-05 20:02:54,553-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:04:14,105-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-810 停留满 120秒，执行放行
+2026-03-05 20:04:25,291-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-818 已到岗，载货: D000000928
+2026-03-05 20:04:55,128-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:06:26,511-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-818 停留满 120秒，执行放行
+2026-03-05 20:06:38,691-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-815 已到岗，载货: D000000520
+2026-03-05 20:06:55,723-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:08:39,561-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-815 停留满 120秒，执行放行
+2026-03-05 20:08:52,518-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-814 已到岗，载货: D000000768
+2026-03-05 20:08:56,552-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:10:52,631-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-814 停留满 120秒，执行放行
+2026-03-05 20:11:05,639-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-819 已到岗，载货: D000000769
+2026-03-05 20:11:57,237-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:13:06,706-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-819 停留满 120秒，执行放行
+2026-03-05 20:13:18,758-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-816 已到岗，载货: D000000930
+2026-03-05 20:13:58,143-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:15:19,930-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-816 停留满 120秒，执行放行
+2026-03-05 20:15:30,377-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-810 已到岗，载货: D000000896
+2026-03-05 20:15:58,842-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:17:31,597-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-810 停留满 120秒，执行放行
+2026-03-05 20:17:44,436-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-813 已到岗，载货: D000000893
+2026-03-05 20:17:59,637-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:19:45,115-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-813 停留满 120秒，执行放行
+2026-03-05 20:19:58,011-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-812 已到岗，载货: D000000625
+2026-03-05 20:20:00,325-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:21:58,906-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-812 停留满 120秒，执行放行
+2026-03-05 20:22:10,945-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-815 已到岗，载货: D000000872
+2026-03-05 20:23:01,348-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:24:11,895-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-815 停留满 120秒，执行放行
+2026-03-05 20:24:24,608-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-811 已到岗，载货: D000000902
+2026-03-05 20:25:02,095-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:26:25,311-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-811 停留满 120秒，执行放行
+2026-03-05 20:26:35,653-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-810 已到岗，载货: D000000792
+2026-03-05 20:27:02,724-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:28:36,946-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-810 停留满 120秒，执行放行
+2026-03-05 20:28:51,030-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-818 已到岗，载货: D000000917
+2026-03-05 20:29:03,302-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:30:51,161-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-818 停留满 120秒，执行放行
+2026-03-05 20:31:04,663-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-819 已到岗，载货: D000000906
+2026-03-05 20:32:04,396-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:33:05,463-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-819 停留满 120秒，执行放行
+2026-03-05 20:33:17,349-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-812 已到岗，载货: D000000579
+2026-03-05 20:34:05,440-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:35:18,398-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-812 停留满 120秒，执行放行
+2026-03-05 20:35:31,023-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-814 已到岗，载货: D000000281
+2026-03-05 20:36:06,611-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:37:31,033-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-814 停留满 120秒，执行放行
+2026-03-05 20:37:44,723-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-811 已到岗，载货: D000000601
+2026-03-05 20:38:07,197-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:39:45,224-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-811 停留满 120秒，执行放行
+2026-03-05 20:39:57,297-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-815 已到岗，载货: D000000875
+2026-03-05 20:40:08,298-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:41:58,382-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-815 停留满 120秒，执行放行
+2026-03-05 20:42:10,265-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-816 已到岗，载货: D000000919
+2026-03-05 20:43:10,164-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:44:10,297-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-816 停留满 120秒，执行放行
+2026-03-05 20:44:23,008-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-818 已到岗，载货: D000000829
+2026-03-05 20:45:10,745-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:46:23,166-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-818 停留满 120秒，执行放行
+2026-03-05 20:46:33,538-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-810 已到岗，载货: D000000820
+2026-03-05 20:47:11,260-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:48:34,281-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-810 停留满 120秒，执行放行
+2026-03-05 20:48:48,112-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-812 已到岗，载货: D000000850
+2026-03-05 20:49:12,300-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:50:49,354-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-812 停留满 120秒，执行放行
+2026-03-05 20:51:02,754-performance_test/log-INFO-LABOR_1-压测.py:239 - [流程监控] 机器人 k50-811 已到岗，载货: D000000785
+2026-03-05 20:51:13,159-performance_test/log-INFO-LABOR_1-压测.py:190 - [任务监控] 当前进行中任务数: 7, 低于阈值: 8, 准备补发: 1个任务
+2026-03-05 20:53:03,105-performance_test/log-INFO-LABOR_1-压测.py:248 - [流程监控] 机器人 k50-811 停留满 120秒，执行放行
