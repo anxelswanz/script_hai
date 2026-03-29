@@ -5,48 +5,49 @@ import paramiko
 import concurrent.futures
 import os
 import tempfile
+import pandas as pd  # 新增：用于导出Excel
 
 # =========================
 # ✅ 配置区
 # =========================
-CSV_FILE_PATH = "robots.csv"  # 请确保你的 CSV 文件名正确
+CSV_FILE_PATH = "robots.csv"
+LOG_EXCEL_PATH = "modification_log.xlsx"  # 新增：日志导出路径
 REMOTE_CONF_PATH = "/home/kubot/app/config__software-design.json"
 
+# 新增：用于存储每台机器的执行结果
+results_list = []
 
-# =========================
-# ✅ 核心逻辑：修改 JSON
-# =========================
+
 def modify_json_content(file_content):
     """
-    定位并修改 enable_3d_dynamic_exposure 为 false
+    针对 vision -> dynamic_exposure -> enable_3d_dynamic_exposure 的修改
     """
     try:
         data = json.loads(file_content)
         modified_flag = False
 
-        if "profiles" in data:
-            for profile in data["profiles"]:
-                # 1. 寻找 device-settings 配置块
-                if profile.get("config-field") == "device-settings":
-                    p_data = profile.get("profile-data", {})
+        if "profiles" not in data:
+            return None, False
 
-                    # 2. 定位 3d_camera_fork
-                    camera_3d = p_data.get("3d_camera_fork", {})
+        for profile in data["profiles"]:
+            # 1. 准确定位 module 块 (根据你提供的逻辑)
+            if profile.get("config-field") == "module":
+                p_data = profile.get("profile-data", {})
 
-                    # 3. 检查或创建 dynamic_exposure 层级
-                    if "dynamic_exposure" not in camera_3d:
-                        camera_3d["dynamic_exposure"] = {}
+                # 2. 定位 vision 块
+                vision = p_data.get("vision")
+                if isinstance(vision, dict):
+                    # 3. 定位 dynamic_exposure 块
+                    dyn_exp = vision.get("dynamic_exposure")
 
-                    dyn_exp = camera_3d["dynamic_exposure"]
-
-                    # 4. 修改目标值为 False
-                    if dyn_exp.get("enable_3d_dynamic_exposure") is not False:
-                        dyn_exp["enable_3d_dynamic_exposure"] = False
-                        modified_flag = True
-
+                    if isinstance(dyn_exp, dict):
+                        current_val = dyn_exp.get("enable_3d_dynamic_exposure")
+                        # 4. 如果不是 False，则修改为 False
+                        if current_val is not False:
+                            dyn_exp["enable_3d_dynamic_exposure"] = False
+                            modified_flag = True
         return data, modified_flag
     except Exception as e:
-        print(f"解析 JSON 失败: {e}")
         return None, False
 
 
@@ -59,20 +60,20 @@ def process_robot(robot_info):
     user = robot_info['username']
     pwd = robot_info['password']
 
+    # 默认状态
+    status = "失败"
+    remark = ""
+
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
     try:
         print(f"🚀 [{hostname}] 正在连接 {ip}...")
-        client.connect(ip, username=user, password=pwd, timeout=10)
-
-        # 1. 停止服务
-        client.exec_command("sudo /etc/kubot_application.sh stop")
+        client.connect(ip, username=user, password=pwd, timeout=5)
 
         # 2. 备份原文件
         client.exec_command(f"sudo cp {REMOTE_CONF_PATH} {REMOTE_CONF_PATH}.bak")
-
-        # 3. 读取内容 (通过 sudo cat 读取)
+        # 3. 读取内容
         stdin, stdout, stderr = client.exec_command(f"sudo cat {REMOTE_CONF_PATH}")
         content = stdout.read().decode()
 
@@ -80,33 +81,40 @@ def process_robot(robot_info):
         new_json, is_changed = modify_json_content(content)
 
         if is_changed:
-            # 创建临时文件
             with tempfile.NamedTemporaryFile(mode='w', delete=False, encoding='utf-8') as tf:
                 json.dump(new_json, tf, indent=2)
                 temp_path = tf.name
 
-            # 上传并覆盖
             sftp = client.open_sftp()
             remote_tmp = f"/home/{user}/tmp_software_design.json"
             sftp.put(temp_path, remote_tmp)
             sftp.close()
             os.remove(temp_path)
 
-            # 使用 sudo 移动到目标目录
             mv_cmd = f"echo '{pwd}' | sudo -S mv {remote_tmp} {REMOTE_CONF_PATH}"
             client.exec_command(mv_cmd)
-            print(f"✅ [{hostname}] 参数修改成功并已保存")
+            status = "成功"
+            remark = "参数已从 True 修改为 False"
+            print(f"✅ [{hostname}] 参数修改成功")
         else:
+            status = "跳过"
+            remark = "已经是 False 或未找到配置项"
             print(f"ℹ️ [{hostname}] 已经是目标状态，无需修改")
 
-        # 5. 重启服务
-        # client.exec_command("sudo /etc/kubot_application.sh start")
-        # print(f"🔄 [{hostname}] 服务已重启")
-
     except Exception as e:
+        status = "连接失败/出错"
+        remark = str(e)
         print(f"❌ [{hostname}] 出错: {e}")
     finally:
         client.close()
+        # 将结果存入列表
+        results_list.append({
+            "机器人名称": hostname,
+            "IP地址": ip,
+            "执行结果": status,
+            "备注/错误详情": remark,
+            "时间": time.strftime("%Y-%m-%d %H:%M:%S")
+        })
 
 
 # =========================
@@ -131,11 +139,17 @@ def main():
 
     print(f"📢 准备处理 {len(robots)} 台设备...")
 
-    # 使用线程池并行处理
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         executor.map(process_robot, robots)
 
-    print("\n✨ 所有设备任务执行完毕")
+    # 新增：导出结果到 Excel
+    print(f"\n📊 正在生成统计报表...")
+    df = pd.DataFrame(results_list)
+    # 按结果排序，方便查看失败的机器
+    df = df.sort_values(by="执行结果", ascending=False)
+    df.to_excel(LOG_EXCEL_PATH, index=False)
+
+    print(f"✨ 所有任务执行完毕！报表已保存至: {LOG_EXCEL_PATH}")
 
 
 if __name__ == "__main__":
