@@ -1,0 +1,1051 @@
+2026-03-30 09:53:54,313 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5234
+ * Running on http://10.201.157.227:5234
+2026-03-30 09:53:54,313 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 09:57:06,904 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5234
+ * Running on http://10.201.157.227:5234
+2026-03-30 09:57:06,905 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 09:58:27,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5234
+ * Running on http://10.201.157.227:5234
+2026-03-30 09:58:27,074 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 10:39:47,905 - INFO - 开始轮询机器人状态，间隔: 90秒。若无任务将自动退出...
+2026-03-30 10:39:47,912 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-96
+2026-03-30 10:39:48,009 - INFO - 机器人 kubot-96 当前有未完成任务: ['load-1774859987871-0-1861075688253035776']
+2026-03-30 10:40:44,680 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-03-30 10:44:33,166 - INFO - 开始轮询机器人状态，间隔: 90秒。若无任务将自动退出...
+2026-03-30 10:44:33,170 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-96
+2026-03-30 10:44:33,203 - INFO - 机器人 kubot-96 当前有未完成任务: ['load-1774860273075-0-1861075987354096896']
+2026-03-30 10:45:59,352 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-03-30 10:48:45,385 - INFO - 开始轮询机器人状态，间隔: 90秒。若无任务将自动退出...
+2026-03-30 10:48:45,386 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:48:45,403 - INFO - 机器人 kubot-10 当前有未完成任务: ['load-1774860525355-0-1861076251857392896']
+2026-03-30 10:50:15,404 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:50:15,470 - INFO - 机器人 kubot-10 当前没有未完成任务。
+2026-03-30 10:50:15,471 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 10:52:58,967 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 10:52:58,968 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:52:59,102 - INFO - 机器人 kubot-10 当前有未完成任务: ['load-1774860778914-0-1861076517762635008']
+2026-03-30 10:53:29,103 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:53:29,120 - INFO - 机器人 kubot-10 当前有未完成任务: ['load-1774860778914-0-1861076517762635008']
+2026-03-30 10:53:59,121 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:53:59,166 - INFO - 机器人 kubot-10 当前没有未完成任务。
+2026-03-30 10:53:59,167 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 10:53:59,197 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 10:53:59,197 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:53:59,209 - INFO - 机器人 kubot-10 当前没有未完成任务。
+2026-03-30 10:53:59,210 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 10:57:43,031 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 10:57:43,032 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:57:43,063 - INFO - 机器人 kubot-10 当前有未完成任务: ['load-1774861062965-0-1861076815637910784']
+2026-03-30 10:58:13,064 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:58:13,113 - INFO - 机器人 kubot-10 当前没有未完成任务。
+2026-03-30 10:58:13,114 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 10:58:13,176 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 10:58:13,176 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 10:58:13,196 - INFO - 机器人 kubot-10 当前没有未完成任务。
+2026-03-30 10:58:13,196 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 11:00:39,557 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 11:00:39,558 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 11:00:39,593 - INFO - 机器人 kubot-10 当前有未完成任务: ['load-1774861239543-0-1861077000747291904']
+2026-03-30 11:01:09,595 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 11:01:09,637 - INFO - 机器人 kubot-10 当前没有未完成任务。
+2026-03-30 11:01:09,637 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 11:01:09,661 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 11:01:09,661 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 11:01:09,683 - INFO - 机器人 kubot-10 当前有未完成任务: ['unload-1774861269637-0-1861077032309363968']
+2026-03-30 11:01:39,683 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 11:01:39,708 - INFO - 机器人 kubot-10 当前有未完成任务: ['unload-1774861269637-0-1861077032309363968']
+2026-03-30 11:02:09,709 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 11:02:09,742 - INFO - 机器人 kubot-10 当前有未完成任务: ['unload-1774861269637-0-1861077032309363968']
+2026-03-30 11:02:39,743 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-10
+2026-03-30 11:02:39,928 - INFO - 机器人 kubot-10 当前没有未完成任务。
+2026-03-30 11:02:39,928 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 13:01:41,252 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:01:41,254 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:01:41,267 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774868501234-0-1861084615405475072']
+2026-03-30 13:02:11,269 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:02:11,329 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774868501234-0-1861084615405475072']
+2026-03-30 13:02:41,330 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:02:41,356 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774868501234-0-1861084615405475072', 'LA_SHELF_STORAGE:shallow-1861084678019093760']
+2026-03-30 13:03:11,357 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:03:11,377 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774868501234-0-1861084615405475072', 'LA_SHELF_STORAGE:shallow-1861084678019093760']
+2026-03-30 13:03:41,378 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:03:41,408 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774868501234-0-1861084615405475072', 'LA_SHELF_STORAGE:shallow-1861084678019093760']
+2026-03-30 13:04:11,409 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:04:12,948 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774868501234-0-1861084615405475072', 'LA_SHELF_STORAGE:shallow-1861084678019093760']
+2026-03-30 13:04:42,950 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:04:42,968 - INFO - 机器人 kubot-121 当前有未完成任务: ['LA_SHELF_STORAGE:shallow-1861084678019093760']
+2026-03-30 13:05:12,969 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:05:13,000 - INFO - 机器人 kubot-121 当前有未完成任务: ['LA_SHELF_STORAGE:shallow-1861084678019093760']
+2026-03-30 13:05:43,001 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:05:43,042 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-03-30 13:05:43,042 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 13:05:43,066 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:05:43,066 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:05:43,080 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1774868743042-0-1861084868973171968']
+2026-03-30 13:06:13,081 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:06:13,134 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1774868743042-0-1861084868973171968']
+2026-03-30 13:06:43,135 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:06:43,164 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1774868743042-0-1861084868973171968']
+2026-03-30 13:07:13,165 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:07:13,264 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1774868743042-0-1861084868973171968']
+2026-03-30 13:07:43,265 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:07:43,276 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-03-30 13:07:43,277 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 13:07:44,278 - INFO - 已清除异常库位 HAI-048-013-15_1
+2026-03-30 13:14:54,126 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:17:33,112 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:17:33,146 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:17:33,146 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:17:33,157 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774869453130-0-1861085613571183872']
+2026-03-30 13:18:03,158 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:18:03,302 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774869453130-0-1861085613571183872']
+2026-03-30 13:18:33,303 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:18:33,320 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774869453130-0-1861085613571183872']
+2026-03-30 13:19:03,322 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:19:03,337 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774869453130-0-1861085613571183872']
+2026-03-30 13:19:33,338 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:19:33,353 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774869453130-0-1861085613571183872']
+2026-03-30 13:20:03,355 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:20:03,379 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774869453130-0-1861085613571183872']
+2026-03-30 13:20:18,626 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-03-30 13:20:18,638 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:20:18,639 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:20:18,661 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774869453130-0-1861085613571183872', 'unload-1774869618626-0-1861085787109463296']
+2026-03-30 13:29:14,080 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:29:14,120 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:29:14,121 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:29:14,135 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:29:44,136 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:29:44,170 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:30:14,171 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:30:14,191 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:30:44,321 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:30:44,381 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:31:14,382 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:31:14,544 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:31:44,546 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:31:44,563 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:32:14,564 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:32:14,900 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:32:46,747 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:32:47,178 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:33:17,179 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:33:17,200 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:33:48,478 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:33:49,096 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:34:19,097 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:34:19,160 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144']
+2026-03-30 13:34:55,056 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:35:06,632 - ERROR - 调用接口发生异常: HTTPConnectionPool(host='10.201.160.113', port=9000): Read timed out. (read timeout=10)
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='10.201.160.113', port=9000): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ronghui\hai\script_v2\script\ess\one_robot_clear_exceptional_location\main.py", line 210, in check_robot_tasks
+    response = requests.get(url, timeout=10)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 691, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='10.201.160.113', port=9000): Read timed out. (read timeout=10)
+2026-03-30 13:35:06,664 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-03-30 13:35:06,681 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:35:06,682 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:35:06,698 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144', 'unload-1774870506664-0-1861086718314157312']
+2026-03-30 13:35:36,699 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:35:36,715 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144', 'unload-1774870506664-0-1861086718314157312']
+2026-03-30 13:36:06,717 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:36:06,743 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144', 'unload-1774870506664-0-1861086718314157312']
+2026-03-30 13:36:36,744 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:36:36,790 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144', 'unload-1774870506664-0-1861086718314157312']
+2026-03-30 13:37:06,791 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:37:06,821 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870154109-0-1861086348619814144', 'unload-1774870506664-0-1861086718314157312']
+2026-03-30 13:37:36,823 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:37:36,856 - INFO - 机器人 kubot-121 当前有未完成任务: ['pp:task-1861086860679320832']
+2026-03-30 13:38:06,858 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:38:06,897 - INFO - 机器人 kubot-121 当前有未完成任务: ['pp:task-1861086897036596480']
+2026-03-30 13:38:11,713 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-03-30 13:39:46,125 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:39:46,151 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:39:46,151 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:39:46,173 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:40:16,174 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:40:16,449 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:40:46,450 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:40:46,483 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:41:16,484 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:41:16,495 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:41:46,495 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:41:46,524 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:42:16,525 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:42:16,585 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:42:46,585 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:42:46,611 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:43:16,612 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:43:16,645 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:43:46,646 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:43:46,660 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:44:16,661 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:44:16,699 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:44:46,700 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:44:46,711 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:45:16,711 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:45:16,744 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:45:46,744 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:45:46,755 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:46:16,756 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:46:16,810 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368']
+2026-03-30 13:46:26,514 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-03-30 13:46:26,531 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 13:46:26,532 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 13:46:26,564 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774870786139-0-1861087011371226368', 'unload-1774871186515-0-1861087431210571008']
+2026-03-30 13:56:05,483 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:12:51,858 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:14:10,272 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:14:10,343 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:14:10,402 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:14:10,439 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:14:10,454 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:14:10,480 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:14:10,552 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:23:02,634 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:24:50,752 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:25:46,400 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:25:59,560 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:25:59,581 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 14:25:59,581 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:25:59,593 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774873559570-0-1861089919608296704']
+2026-03-30 14:26:29,594 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:26:29,615 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774873559570-0-1861089919608296704']
+2026-03-30 14:26:59,615 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:26:59,654 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774873559570-0-1861089919608296704']
+2026-03-30 14:27:29,655 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:27:29,667 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774873559570-0-1861089919608296704']
+2026-03-30 14:27:59,668 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:27:59,691 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774873559570-0-1861089919608296704']
+2026-03-30 14:28:29,692 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:28:29,738 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774873559570-0-1861089919608296704']
+2026-03-30 14:28:37,603 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-03-30 14:28:37,617 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-03-30 14:28:37,617 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-03-30 14:28:37,647 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1774873559570-0-1861089919608296704', 'unload-1774873717603-0-1861090085324199168']
+2026-04-01 11:15:42,935 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:15:53,232 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:15:53,232 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:15:53,253 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775034953214-0-1861259156595414272']
+2026-04-01 11:16:23,253 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:16:23,543 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775034953214-0-1861259156595414272']
+2026-04-01 11:16:53,544 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:16:53,597 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775034953214-0-1861259156595414272']
+2026-04-01 11:17:23,599 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:17:24,312 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775034953214-0-1861259156595414272']
+2026-04-01 11:17:54,314 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:17:54,361 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775034953214-0-1861259156595414272']
+2026-04-01 11:18:24,362 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:18:24,396 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775034953214-0-1861259156595414272']
+2026-04-01 11:18:41,893 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 11:18:41,948 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:18:41,948 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:18:41,980 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775034953214-0-1861259156595414272', 'unload-1775035121893-0-1861259333502768384']
+2026-04-01 11:20:08,642 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:20:29,420 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:20:41,861 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:20:42,072 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:20:42,083 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035241851-0-1861259459257439488']
+2026-04-01 11:21:12,087 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:21:12,257 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035241851-0-1861259459257439488']
+2026-04-01 11:21:42,258 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:21:42,272 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035241851-0-1861259459257439488']
+2026-04-01 11:22:12,275 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:22:12,313 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035241851-0-1861259459257439488']
+2026-04-01 11:22:25,191 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 11:22:57,783 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:23:10,289 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:23:10,290 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:23:10,324 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035390274-0-1861259614897575168']
+2026-04-01 11:23:40,324 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:23:40,364 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 11:23:40,364 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 11:23:40,382 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:23:40,382 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:23:40,407 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775035420365-0-1861259646452372736']
+2026-04-01 11:24:10,409 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:24:10,437 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 11:24:10,437 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 11:24:11,438 - INFO - 已清除异常库位 HAI-023-105-02_2
+2026-04-01 11:24:11,438 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:24:23,132 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:24:23,132 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:24:23,183 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:24:53,184 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:24:53,196 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:25:23,198 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:25:23,227 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:25:53,228 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:25:54,231 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:26:24,231 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:26:24,252 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:26:54,253 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:26:54,316 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:27:24,317 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:27:26,321 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:27:56,322 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:27:56,352 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:28:26,353 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:28:26,377 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:28:56,378 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:28:56,402 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:29:26,406 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:29:26,449 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:29:56,450 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:29:56,464 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:30:26,465 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:30:26,582 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:30:56,583 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:30:56,611 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:31:26,612 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:31:26,647 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:31:56,648 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:31:56,681 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:32:26,682 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:32:26,717 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:32:56,718 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:32:56,744 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:33:26,745 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:33:27,092 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:33:57,093 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:33:57,159 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775035462935-0-1861259691089204480']
+2026-04-01 11:34:16,026 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 11:34:16,044 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:34:16,044 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:34:16,055 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775036056027-0-1861260313013261568']
+2026-04-01 11:43:25,539 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:43:37,195 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:43:37,195 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:43:37,206 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775036617183-0-1861260901442655488']
+2026-04-01 11:43:41,396 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 11:43:41,410 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:43:41,410 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:43:41,440 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775036617183-0-1861260901442655488', 'unload-1775036621396-0-1861260905861354752']
+2026-04-01 11:47:08,502 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:47:20,346 - INFO - 开始轮询机器人状态，间隔: load-1775036839929-0秒。若无任务将自动退出...
+2026-04-01 11:47:21,427 - INFO - 开始轮询机器人状态，间隔: load-1775036839929-0秒。若无任务将自动退出...
+2026-04-01 11:47:22,987 - INFO - 已清除异常库位 HAI-022-163-03_2
+2026-04-01 11:47:22,987 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:47:33,096 - INFO - 开始轮询机器人状态，间隔: load-1775036852727-0秒。若无任务将自动退出...
+2026-04-01 11:47:33,441 - INFO - 开始轮询机器人状态，间隔: load-1775036852727-0秒。若无任务将自动退出...
+2026-04-01 11:47:34,784 - INFO - 已清除异常库位 HAI-022-115-08_2
+2026-04-01 11:47:34,784 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:49:46,821 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:49:59,486 - INFO - 开始轮询机器人状态，间隔: load-1775036999316-0秒。若无任务将自动退出...
+2026-04-01 11:50:00,101 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:50:00,134 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775036999316-0-1861261302152828160']
+2026-04-01 11:50:51,021 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:51:04,429 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:51:05,354 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:51:05,917 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775037064410-0-1861261370411980032']
+2026-04-01 11:51:36,356 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:51:36,395 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775037064410-0-1861261370411980032']
+2026-04-01 11:52:07,527 - INFO - 开始轮询机器人状态，间隔: load-1775037064410-0秒。若无任务将自动退出...
+2026-04-01 11:52:09,008 - INFO - 已清除异常库位 HAI-022-163-03_2
+2026-04-01 11:52:09,008 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:52:20,485 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:52:21,485 - INFO - 开始轮询机器人状态，间隔: load-1775037139837-0秒。若无任务将自动退出...
+2026-04-01 11:52:22,767 - INFO - 已清除异常库位 HAI-022-115-08_2
+2026-04-01 11:52:22,767 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:58:54,406 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:59:06,608 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 11:59:06,979 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:59:07,039 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775037546551-0-1861261875993384192']
+2026-04-01 11:59:37,710 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 11:59:37,733 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775037546551-0-1861261875993384192']
+2026-04-01 12:00:08,044 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:00:08,068 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775037546551-0-1861261875993384192']
+2026-04-01 12:00:39,416 - INFO - 开始轮询机器人状态，间隔: load-1775037546551-0秒。若无任务将自动退出...
+2026-04-01 12:00:41,040 - INFO - 已清除异常库位 HAI-022-163-03_2
+2026-04-01 12:00:41,040 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:00:52,631 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:00:53,712 - INFO - 开始轮询机器人状态，间隔: load-1775037652616-0秒。若无任务将自动退出...
+2026-04-01 12:00:55,279 - INFO - 已清除异常库位 HAI-022-115-08_2
+2026-04-01 12:00:55,279 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:07:24,554 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:07:35,261 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:07:35,275 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038054902-0-1861262409045382400']
+2026-04-01 12:07:35,276 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:08:45,801 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:08:57,642 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:08:57,684 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038137609-0-1861262495789880576']
+2026-04-01 12:08:57,685 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:08:57,932 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:08:57,944 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038137609-0-1861262495789880576']
+2026-04-01 12:09:29,475 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:09:29,500 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:09:29,500 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:09:29,514 - INFO - 开始轮询机器人状态，间隔: load-1775038137609-0-1861262495789880576秒。若无任务将自动退出...
+2026-04-01 12:09:29,721 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:09:29,752 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775038169500-0-1861262529216386304']
+2026-04-01 12:10:07,795 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:10:50,935 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:13:02,144 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:13:11,913 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:13:11,941 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038391903-0-1861262762425980160']
+2026-04-01 12:13:11,942 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:13:12,188 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:13:12,223 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038391903-0-1861262762425980160']
+2026-04-01 12:13:42,836 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:13:43,050 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038391903-0-1861262762425980160']
+2026-04-01 12:14:03,497 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 12:14:03,511 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:15:51,957 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:16:03,775 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:16:03,813 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038562767-0-1861262941602452736']
+2026-04-01 12:16:03,813 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:16:04,281 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:16:04,306 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038562767-0-1861262941602452736']
+2026-04-01 12:16:34,870 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:16:35,194 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038562767-0-1861262941602452736']
+2026-04-01 12:17:06,394 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:17:06,430 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:17:06,430 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:17:06,444 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:17:06,762 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:17:07,226 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775038626431-0-1861263008354800896']
+2026-04-01 12:17:37,542 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:17:37,581 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:17:37,581 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:17:38,582 - INFO - 已清除异常库位 HAI-022-163-03_2
+2026-04-01 12:17:38,582 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:17:50,981 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:17:51,120 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038670717-0-1861263054808814848']
+2026-04-01 12:17:51,120 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:17:51,477 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:17:51,499 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038670717-0-1861263054808814848']
+2026-04-01 12:18:22,008 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:18:22,074 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038670717-0-1861263054808814848']
+2026-04-01 12:18:52,703 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:18:52,915 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775038670717-0-1861263054808814848']
+2026-04-01 12:19:24,341 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:19:24,360 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:19:24,360 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:19:24,388 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:19:24,652 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:19:24,662 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775038764361-0-1861263153000617216']
+2026-04-01 12:19:37,977 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 12:23:08,547 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:23:21,299 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:23:21,313 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039001286-0-1861263401431340288']
+2026-04-01 12:23:21,313 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:23:21,568 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:23:21,578 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039001286-0-1861263401431340288']
+2026-04-01 12:24:21,682 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:24:31,311 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:24:31,356 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039071268-0-1861263474845291776']
+2026-04-01 12:24:31,356 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:24:31,856 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:24:31,873 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039071268-0-1861263474845291776']
+2026-04-01 12:25:02,962 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:25:02,997 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:25:02,998 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:25:03,065 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:25:03,066 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:25:13,892 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:25:14,486 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:25:14,499 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775039113066-0-1861263519460103424']
+2026-04-01 12:25:39,671 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 12:26:49,143 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:27:03,192 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:27:03,234 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039222637-0-1861263633552512256']
+2026-04-01 12:27:03,234 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:27:03,585 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:27:03,598 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039222637-0-1861263633552512256']
+2026-04-01 12:27:34,069 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:27:34,105 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039222637-0-1861263633552512256']
+2026-04-01 12:28:05,072 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:28:05,115 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:28:05,116 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:28:05,150 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:28:05,151 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:28:15,167 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:28:15,713 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:28:15,738 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775039295152-0-1861263709581612288']
+2026-04-01 12:28:27,051 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 12:30:22,996 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:30:37,153 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:30:37,192 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039437141-0-1861263858472064256']
+2026-04-01 12:30:37,192 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:30:37,445 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:30:37,487 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039437141-0-1861263858472064256']
+2026-04-01 12:31:18,917 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:31:29,351 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:31:29,363 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039489337-0-1861263913207731456']
+2026-04-01 12:31:29,364 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:31:29,734 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:31:29,762 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039489337-0-1861263913207731456']
+2026-04-01 12:32:00,287 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:32:00,299 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039489337-0-1861263913207731456']
+2026-04-01 12:32:41,477 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:32:53,792 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:32:53,817 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039573767-0-1861264001741100288']
+2026-04-01 12:32:53,817 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:32:54,057 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:32:54,077 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039573767-0-1861264001741100288']
+2026-04-01 12:33:24,819 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:33:25,059 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039573767-0-1861264001741100288']
+2026-04-01 12:34:19,532 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:34:30,489 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:34:30,545 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039670473-0-1861264103147836672']
+2026-04-01 12:34:30,546 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:34:30,775 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:34:31,077 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039670473-0-1861264103147836672']
+2026-04-01 12:34:31,972 - INFO - 用户手动停止了程序 (Ctrl+C)
+2026-04-01 12:34:44,654 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:34:56,102 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:34:56,112 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039696091-0-1861264130009208064']
+2026-04-01 12:34:56,113 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:34:56,465 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:34:56,562 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039696091-0-1861264130009208064']
+2026-04-01 12:35:27,125 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:35:27,175 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039696091-0-1861264130009208064']
+2026-04-01 12:35:57,537 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:35:57,557 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039696091-0-1861264130009208064']
+2026-04-01 12:36:33,609 - ERROR - HAI-022-053-03_2机器人无法取，需要人工取出
+2026-04-01 12:36:33,610 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:36:44,104 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:36:44,135 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039804086-0-1861264243257513216']
+2026-04-01 12:36:44,136 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:36:45,053 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:36:46,266 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039804086-0-1861264243257513216']
+2026-04-01 12:37:22,394 - ERROR - HAI-022-051-03_2机器人无法取，需要人工取出
+2026-04-01 12:37:22,394 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:37:34,914 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:37:34,947 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039854647-0-1861264296290292992']
+2026-04-01 12:37:34,948 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:37:35,214 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:37:35,260 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039854647-0-1861264296290292992']
+2026-04-01 12:38:06,199 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:38:06,237 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039854647-0-1861264296290292992']
+2026-04-01 12:38:42,435 - ERROR - HAI-023-063-02_2机器人无法取，需要人工取出
+2026-04-01 12:38:42,435 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:38:55,620 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:38:55,644 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:38:55,644 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:38:56,172 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:38:56,194 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:39:26,531 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:39:26,559 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:39:57,143 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:39:57,155 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:40:27,420 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:40:27,436 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:40:57,936 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:40:57,970 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:41:28,455 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:41:28,483 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:41:59,088 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:41:59,180 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:42:30,652 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:42:30,995 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:43:01,423 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:43:01,442 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:43:33,134 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:43:33,165 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944']
+2026-04-01 12:44:03,627 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:44:03,656 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775039935215-0-1861264380755186944', 'LA_SHELF_STORAGE:shallow-1861264693032654080']
+2026-04-01 12:44:33,919 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:44:33,949 - INFO - 机器人 kubot-121 当前有未完成任务: ['LA_SHELF_STORAGE:shallow-1861264693032654080']
+2026-04-01 12:45:04,437 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:45:04,472 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:45:04,472 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:45:09,488 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:45:09,950 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:45:10,073 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775040309473-0-1861264773207823616']
+2026-04-01 12:45:40,515 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:45:40,556 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775040309473-0-1861264773207823616', 'LA_SHELF_STORAGE:shallow-1861264791854650624']
+2026-04-01 12:46:10,959 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:46:10,981 - INFO - 机器人 kubot-121 当前有未完成任务: ['LA_SHELF_STORAGE:shallow-1861264791854650624']
+2026-04-01 12:46:41,309 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:46:41,363 - INFO - 机器人 kubot-121 当前有未完成任务: ['pp:task-1861264854657012992']
+2026-04-01 12:47:11,575 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:47:11,585 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:47:11,586 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:47:12,586 - INFO - 已清除异常库位 HAI-028-048-03_2
+2026-04-01 12:47:12,586 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:47:29,362 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:47:29,393 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040449347-0-1861264919880537344']
+2026-04-01 12:47:29,394 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:47:29,688 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:47:29,712 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040449347-0-1861264919880537344']
+2026-04-01 12:48:00,906 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:48:01,145 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040449347-0-1861264919880537344']
+2026-04-01 12:48:31,680 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:48:31,693 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040449347-0-1861264919880537344']
+2026-04-01 12:49:08,217 - ERROR - HAI-022-086-03_2机器人无法取，需要人工取出
+2026-04-01 12:49:08,218 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:49:18,195 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:49:18,205 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040558184-0-1861265034005452032']
+2026-04-01 12:49:18,205 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:49:18,528 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:49:18,560 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040558184-0-1861265034005452032', 'pp:task-1861265034180564224']
+2026-04-01 12:49:49,157 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:49:49,186 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040558184-0-1861265034005452032']
+2026-04-01 12:50:19,460 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:50:19,793 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040558184-0-1861265034005452032']
+2026-04-01 12:50:56,363 - ERROR - HAI-022-114-09_2机器人无法取，需要人工取出
+2026-04-01 12:50:56,364 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:51:05,897 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:51:05,911 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040665876-0-1861265146941281536']
+2026-04-01 12:51:05,911 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:51:06,542 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:51:06,566 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040665876-0-1861265146941281536']
+2026-04-01 12:51:42,546 - ERROR - HAI-022-115-08_2机器人无法取，需要人工取出
+2026-04-01 12:51:42,546 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:51:53,182 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:51:53,222 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040713049-0-1861265196400514304']
+2026-04-01 12:51:53,223 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:51:53,556 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:51:53,667 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040713049-0-1861265196400514304']
+2026-04-01 12:52:24,175 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:52:24,187 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040713049-0-1861265196400514304']
+2026-04-01 12:52:59,995 - ERROR - HAI-022-163-03_2机器人无法取，需要人工取出
+2026-04-01 12:52:59,996 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:53:11,183 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:53:11,204 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040791168-0-1861265278315271424']
+2026-04-01 12:53:11,204 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:53:11,507 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:53:11,530 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040791168-0-1861265278315271424']
+2026-04-01 12:53:42,016 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:53:42,033 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040791168-0-1861265278315271424']
+2026-04-01 12:54:12,321 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:54:12,345 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040791168-0-1861265278315271424']
+2026-04-01 12:54:42,945 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:54:43,026 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040791168-0-1861265278315271424']
+2026-04-01 12:55:13,282 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:55:13,305 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040791168-0-1861265278315271424']
+2026-04-01 12:55:43,965 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:55:43,995 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:55:43,998 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:55:49,016 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:55:49,303 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:55:49,330 - INFO - 机器人 kubot-121 当前有未完成任务: ['unload-1775040948998-0-1861265443820410112']
+2026-04-01 12:56:20,132 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:56:20,158 - INFO - 机器人 kubot-121 当前没有未完成任务。
+2026-04-01 12:56:20,158 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 12:56:21,159 - INFO - 已清除异常库位 HAI-022-024-17_2
+2026-04-01 12:56:21,159 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:56:31,310 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:56:31,341 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040991096-0-1861265487970702592']
+2026-04-01 12:56:31,342 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:56:31,579 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:56:31,607 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040991096-0-1861265487970702592']
+2026-04-01 12:57:02,523 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:57:02,535 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775040991096-0-1861265487970702592']
+2026-04-01 12:57:38,648 - ERROR - HAI-023-020-10_2机器人无法取，需要人工取出
+2026-04-01 12:57:38,649 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:57:51,353 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:57:51,394 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 12:57:51,394 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 12:57:51,755 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:57:51,763 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 12:58:22,165 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:58:22,182 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 12:58:52,652 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:58:52,953 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 12:59:23,365 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:59:23,387 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 12:59:53,603 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 12:59:53,756 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 13:00:24,202 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:00:24,699 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 13:00:55,743 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:00:55,760 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041071319-0-1861265572102149376']
+2026-04-01 13:01:31,522 - ERROR - HAI-027-016-24_2机器人无法取，需要人工取出
+2026-04-01 13:01:31,523 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:01:44,979 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:01:45,024 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041304581-0-1861265816725492992']
+2026-04-01 13:01:45,024 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 13:01:45,293 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:01:45,322 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041304581-0-1861265816725492992']
+2026-04-01 13:02:16,678 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:02:17,001 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041304581-0-1861265816725492992']
+2026-04-01 13:02:47,246 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:02:47,301 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041304581-0-1861265816725492992']
+2026-04-01 13:03:17,785 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:03:17,819 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041304581-0-1861265816725492992']
+2026-04-01 13:03:54,026 - ERROR - HAI-028-010-12_2机器人无法取，需要人工取出
+2026-04-01 13:03:54,026 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:04:04,049 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:04:04,060 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:04:04,060 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 13:04:04,442 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:04:04,489 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:04:35,064 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:04:35,098 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:05:05,619 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:05:05,633 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:05:36,973 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:05:37,037 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:06:14,927 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:06:15,036 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:06:45,453 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:06:45,771 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:07:16,442 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:07:16,478 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:07:46,901 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:07:46,918 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:08:17,442 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:08:17,476 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:08:50,793 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:08:51,257 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:09:21,708 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:09:21,747 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:09:52,111 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:09:52,139 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:10:22,363 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:10:22,377 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:11:00,207 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:11:00,244 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:11:30,622 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:11:30,881 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:12:01,595 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:12:01,625 - INFO - 机器人 kubot-121 当前有未完成任务: ['load-1775041444030-0-1861265962916910336']
+2026-04-01 13:12:41,704 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:12:41,741 - ERROR - 调用接口发生异常: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+OSError: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ronghui\hai\script_v2\script\ess\one_robot_clear_exceptional_location\main.py", line 356, in check_robot_tasks
+    response = requests.get(url, timeout=10)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+2026-04-01 13:12:42,061 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 13:13:05,004 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 13:13:05,398 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:13:05,886 - ERROR - 调用接口发生异常: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+OSError: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ronghui\hai\script_v2\script\ess\one_robot_clear_exceptional_location\main.py", line 356, in check_robot_tasks
+    response = requests.get(url, timeout=10)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+2026-04-01 13:13:23,904 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 13:13:24,905 - INFO - 已清除异常库位 HAI-022-009-04_2
+2026-04-01 13:13:24,908 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-121
+2026-04-01 13:13:25,107 - ERROR - 调用接口发生异常: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+OSError: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 500, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 331, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ronghui\hai\script_v2\script\ess\one_robot_clear_exceptional_location\main.py", line 218, in get_robot_location
+    response = requests.get(url, timeout=10)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ansel-FAE\AppData\Local\Programs\Python\Python314\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.201.160.113', port=9000): Max retries exceeded with url: /ess-api/model/queryModelByCode?modelCode=kubot-121 (Caused by NewConnectionError("HTTPConnection(host='10.201.160.113', port=9000): Failed to establish a new connection: [WinError 10065] 套接字操作尝试一个无法连接的主机。"))
