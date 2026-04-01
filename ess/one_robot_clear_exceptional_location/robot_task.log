@@ -1618,3 +1618,85 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.201.160.113', p
 2026-04-01 16:26:33,157 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775053248909-0-1861278341850469632']
 2026-04-01 16:27:03,583 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
 2026-04-01 16:27:03,654 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775053248909-0-1861278341850469632']
+2026-04-01 16:27:34,656 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:27:35,002 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775053248909-0-1861278341850469632']
+2026-04-01 16:28:05,439 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:28:05,510 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775053248909-0-1861278341850469632']
+2026-04-01 16:28:41,882 - ERROR - 2026-04-01 16:28:41 HAI-047-003-10_2机器人无法取，需要人工取出
+2026-04-01 16:28:41,882 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:28:58,683 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:28:58,826 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775053738489-0-1861278855046632704']
+2026-04-01 16:28:58,826 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 16:28:59,324 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:28:59,412 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775053738489-0-1861278855046632704']
+2026-04-01 16:29:30,118 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:29:30,200 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775053738489-0-1861278855046632704', 'LA_SHELF_STORAGE:shallow-1861278874003838208']
+2026-04-01 16:30:00,857 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:30:00,989 - INFO - 机器人 kubot-21 当前有未完成任务: ['LA_SHELF_STORAGE:shallow-1861278874003838208']
+2026-04-01 16:30:31,285 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:30:31,323 - INFO - 机器人 kubot-21 当前没有未完成任务。
+2026-04-01 16:30:31,326 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 16:30:36,762 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 16:30:37,259 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:30:37,394 - INFO - 机器人 kubot-21 当前有未完成任务: ['unload-1775053836326-0-1861278957927666944']
+2026-04-01 16:31:08,223 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:31:08,780 - INFO - 机器人 kubot-21 当前有未完成任务: ['unload-1775053836326-0-1861278957927666944']
+2026-04-01 16:31:39,465 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:31:39,659 - INFO - 机器人 kubot-21 当前有未完成任务: ['unload-1775053836326-0-1861278957927666944', 'LA_SHELF_STORAGE:shallow-1861279001051403520']
+2026-04-01 16:32:10,833 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:32:11,123 - INFO - 机器人 kubot-21 当前有未完成任务: ['LA_SHELF_STORAGE:shallow-1861279001051403520']
+2026-04-01 16:32:41,785 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:32:42,015 - INFO - 机器人 kubot-21 当前有未完成任务: ['rest:task-1861279076159919360']
+2026-04-01 16:33:13,169 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:33:13,567 - INFO - 机器人 kubot-21 当前有未完成任务: ['rest:task-1861279076159919360']
+2026-04-01 16:33:44,370 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:33:44,666 - INFO - 机器人 kubot-21 当前有未完成任务: ['rest:task-1861279076159919360']
+2026-04-01 16:34:15,562 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:34:15,727 - INFO - 机器人 kubot-21 当前有未完成任务: ['rest:task-1861279076159919360']
+2026-04-01 16:34:47,689 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:34:49,472 - INFO - 机器人 kubot-21 当前没有未完成任务。
+2026-04-01 16:34:49,473 - INFO - 检测到退出信号（无任务或异常），轮询结束。
+2026-04-01 16:34:50,476 - INFO - 2026-04-01 16:34:50 已清除异常库位 HAI-046-013-07_2
+2026-04-01 16:34:50,477 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:35:25,380 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:35:25,539 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054125176-0-1861279260502660352']
+2026-04-01 16:35:25,540 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 16:35:26,464 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:35:26,989 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054125176-0-1861279260502660352']
+2026-04-01 16:36:03,157 - ERROR - 2026-04-01 16:36:03 HAI-046-014-02_2机器人无法取，需要人工取出
+2026-04-01 16:36:03,158 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:36:22,553 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:36:22,672 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054182139-0-1861279320322872576']
+2026-04-01 16:36:22,673 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 16:36:23,058 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:36:23,200 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054182139-0-1861279320322872576']
+2026-04-01 16:36:53,638 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:36:53,801 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054182139-0-1861279320322872576']
+2026-04-01 16:37:30,639 - ERROR - 2026-04-01 16:37:30 HAI-041-008-05_2机器人无法取，需要人工取出
+2026-04-01 16:37:30,639 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:37:56,263 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:37:57,230 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054275944-0-1861279418704467200']
+2026-04-01 16:37:57,231 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 16:37:58,058 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:37:58,509 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054275944-0-1861279418704467200']
+2026-04-01 16:38:29,250 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:38:29,313 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054275944-0-1861279418704467200']
+2026-04-01 16:38:59,679 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:39:00,057 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054275944-0-1861279418704467200']
+2026-04-01 16:39:36,540 - ERROR - 2026-04-01 16:39:36 HAI-040-003-12_2机器人无法取，需要人工取出
+2026-04-01 16:39:36,541 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:39:58,538 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:39:58,643 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054398199-0-1861279546836260096', 'pp:task-1861279547045975296']
+2026-04-01 16:39:58,644 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 16:39:59,082 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:39:59,119 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054398199-0-1861279546836260096', 'pp:task-1861279547045975296']
+2026-04-01 16:40:35,098 - ERROR - 2026-04-01 16:40:35 HAI-040-003-04_2机器人无法取，需要人工取出
+2026-04-01 16:40:35,098 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:40:51,294 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:40:51,329 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054451280-0-1861279602406593792']
+2026-04-01 16:40:51,329 - INFO - 开始轮询机器人状态，间隔: 30秒。若无任务将自动退出...
+2026-04-01 16:40:51,587 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:40:51,602 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054451280-0-1861279602406593792']
+2026-04-01 16:41:21,844 - INFO - 正在查询机器人状态，URL: http://10.201.160.113:9000/ess-api/model/queryModelByCode?modelCode=kubot-21
+2026-04-01 16:41:21,900 - INFO - 机器人 kubot-21 当前有未完成任务: ['load-1775054451280-0-1861279602406593792']
+2026-04-01 16:41:58,255 - ERROR - 2026-04-01 16:41:58 HAI-035-014-12_2机器人无法取，需要人工取出

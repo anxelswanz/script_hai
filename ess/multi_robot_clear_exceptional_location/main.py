@@ -7,15 +7,12 @@ import flask
 from typing import List
 from datetime import datetime
 import requests
-import logging
-import os
 
 
 file_path = "location.xlsx"
 host = "http://10.201.160.113:9000"
 headers = {"Content-Type": "application/json; charset=UTF-8", 'Connection': 'close'}
 robot_id = "kubot-21"
-
 LOCATION_SELECTED = ""
 ALL_LIST = []
 server = flask.Flask(__name__)
@@ -406,43 +403,53 @@ def start_polling(robot_code, task, interval_seconds=30, generated_task_code=Non
 # 中途不能取消任务，因为取消任务以后轮询会查到任务为空会自动去做一个空的unload
 
 
-if __name__ == '__main__':
-    list_data = getAllList()
-    LOCATION_SELECTED = len(list_data)
 
-    # print(f"[DEBUG] before {len(list_data)}")
-    while len(list_data) > 0:
-        print("开始新一轮任务")
-        # 充值参数
-        IF_SKIP_CURRENT_TASK = False
-        min_distance, closest_take_location = distance_calculation(list_data)
-        container = closest_take_location.container
-        locationCode = closest_take_location.locationCode
-        print(f"[DEBUG] 还剩: {len(list_data)}")
-        print(f"[INFO] find target container {container} & target location: {locationCode}")
-        locations = queryContainer(LOCATION_SELECTED)
-        # min_distance, closest_put_location = distance_calculation(locations)
-        print(f"found the closest location: {closest_take_location.locationCode}...now go take the container {container}")
-        createAction(robot_id=robot_id,action="load", location=locationCode)
-        task_code = current_robot_task(robot_id)
-        print(f"获取task_code: {task_code}" )
-        start_polling(robot_id, "load", generated_task_code=task_code)
-        sleep(5)
-        print(f"start_polling IF_SKIP_CURRENT_TASK 状态: {IF_SKIP_CURRENT_TASK}")
-        if not IF_SKIP_CURRENT_TASK:
-            print(f"{container} is taken by robot {robot_id}, now let's place the container in {closest_take_location.locationCode}...")
-            createAction(robot_id=robot_id, action="unload", location=closest_take_location.locationCode, container=container)
-            print("task created now let's do the polling....")
-            start_polling(robot_id, "unload", generated_task_code=task_code)
-            sleep(1)
-            now = datetime.now()
-            formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
-            logger.info(f"{formatted_time} 已清除异常库位 {closest_take_location.locationCode}")
-            print(f"this task all done now let's do next one....")
-        else:
-            now = datetime.now()
-            formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
-            logger.error(f"{formatted_time} {closest_take_location.locationCode}机器人无法取，需要人工取出")
+if __name__ == '__main__':
+    #all_data = getAllList()
+    all_data = ["1","2","2","2","2","2","2"]
+    robot_list = ["kubot-1", "kubot-2"]
+    avg = len(all_data) // len(robot_list)
+    chunks = [ all_data[num:num + avg] for num in range(0, len(all_data), avg)]
+    if len(chunks) > len(robot_list):
+         chunks[len(robot_list) - 1].extend(chunks.pop())
+
+
+
+    # LOCATION_SELECTED = len(list_data)
+    # # print(f"[DEBUG] before {len(list_data)}")
+    # while len(list_data) > 0:
+    #     print("开始新一轮任务")
+    #     # 充值参数
+    #     IF_SKIP_CURRENT_TASK = False
+    #     min_distance, closest_take_location = distance_calculation(list_data)
+    #     container = closest_take_location.container
+    #     locationCode = closest_take_location.locationCode
+    #     print(f"[DEBUG] 还剩: {len(list_data)}")
+    #     print(f"[INFO] find target container {container} & target location: {locationCode}")
+    #     locations = queryContainer(LOCATION_SELECTED)
+    #     # min_distance, closest_put_location = distance_calculation(locations)
+    #     print(f"found the closest location: {closest_take_location.locationCode}...now go take the container {container}")
+    #     createAction(robot_id=robot_id,action="load", location=locationCode)
+    #     task_code = current_robot_task(robot_id)
+    #     print(f"获取task_code: {task_code}" )
+    #     start_polling(robot_id, "load", generated_task_code=task_code)
+    #     sleep(5)
+    #     print(f"start_polling IF_SKIP_CURRENT_TASK 状态: {IF_SKIP_CURRENT_TASK}")
+    #     if not IF_SKIP_CURRENT_TASK:
+    #         print(f"{container} is taken by robot {robot_id}, now let's place the container in {closest_take_location.locationCode}...")
+    #         createAction(robot_id=robot_id, action="unload", location=closest_take_location.locationCode, container=container)
+    #         print("task created now let's do the polling....")
+    #         start_polling(robot_id, "unload", generated_task_code=task_code)
+    #         sleep(1)
+    #         now = datetime.now()
+    #         formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
+    #         logger.info(f"{formatted_time} 已清除异常库位 {closest_take_location.locationCode}")
+    #         print(f"this task all done now let's do next one....")
+    #     else:
+    #         now = datetime.now()
+    #         formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
+    #         logger.error(f"{formatted_time} {closest_take_location.locationCode}机器人无法取，需要人工取出")
+    # unload_all_containers()
 
 # if __name__ == '__main__':
 #     # 1. 初始化数据

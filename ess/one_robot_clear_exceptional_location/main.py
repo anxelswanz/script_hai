@@ -405,7 +405,8 @@ def start_polling(robot_code, task, interval_seconds=30, generated_task_code=Non
 
 # 中途不能取消任务，因为取消任务以后轮询会查到任务为空会自动去做一个空的unload
 
-
+EXCEPTION_CLEAR = 0
+EXCEPTION_CLEAR_LOCATION = []
 if __name__ == '__main__':
     list_data = getAllList()
     LOCATION_SELECTED = len(list_data)
@@ -438,12 +439,18 @@ if __name__ == '__main__':
             now = datetime.now()
             formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
             logger.info(f"{formatted_time} 已清除异常库位 {closest_take_location.locationCode}")
+            EXCEPTION_CLEAR = EXCEPTION_CLEAR + 1
+            EXCEPTION_CLEAR_LOCATION.append(closest_take_location.locationCode)
             print(f"this task all done now let's do next one....")
         else:
             now = datetime.now()
             formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
             logger.error(f"{formatted_time} {closest_take_location.locationCode}机器人无法取，需要人工取出")
-
+    logger.info(f"已清除: {EXCEPTION_CLEAR}个异常库位!")
+    logger.info(f"他们是: ")
+    for location in EXCEPTION_CLEAR_LOCATION:
+        logger.info(f"{location}")
+    unload_all_containers()
 # if __name__ == '__main__':
 #     # 1. 初始化数据
 #     list_data = read_excel_to_tuples(file_path)
